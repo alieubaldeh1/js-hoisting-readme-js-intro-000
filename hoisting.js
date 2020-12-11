@@ -10,9 +10,9 @@ function callMe() {
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
+  var thisIsCrazy();
 
-  var thisIsCrazy = function (){
+  thisIsCrazy = function (){
     console.log("hey!!!")
   }
 }
@@ -30,5 +30,5 @@ function sayMyName() {
 }
 
 callMe(lyric)
-crazy()()()
+crazy()()
 sayMyName()(name)
