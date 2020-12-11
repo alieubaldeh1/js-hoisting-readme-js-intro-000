@@ -29,5 +29,6 @@ function sayMyName() {
   }
 }
 
+callMe(lyric)
 crazy()()
 sayMyName()()
